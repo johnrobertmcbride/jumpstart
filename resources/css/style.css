@@ -106,20 +106,70 @@ h4 {
   color: white;
   font-size: 1.7rem;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  height: 10rem;
-  width: 51.3rem;
+  max-width: 51.3rem;
   margin: auto;
 }
 
+.text-container {
+  height: 22.5rem;
+}
+
 @media only screen and (max-width: 860px) {
-  .jumbotron p {
-    width: auto;
+  .jumbotron h1 {
+    font-size: 5.5rem;
+  }
+  .text-container {
+    height: 20rem;
   }
 }
 
 @media only screen and (max-width: 700px) {
   .jumbotron h1 {
-    font-size: 5.7rem;
+    font-size: 4.5rem;
+  }
+
+  .text-container {
+    height: 15rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .jumbotron h1 {
+    font-size: 4rem;
+  }
+
+  .jumbotron p {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .jumbotron {
+    padding-top: 15rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .jumbotron h1 {
+    font-size: 3.5rem;
+  }
+  .text-container {
+    height: 12.5rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .jumbotron h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .jumbotron h1 {
+    font-size: 2rem;
+  }
+  .jumbotron p {
+    font-size: 1rem;
   }
 }
 
